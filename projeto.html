@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+    <h1>Bem-Vindo!</h1>
+    <h3>Temos dois numeros, a soma deles, irá definir se é:</h3>
+    <h3>1-igual ou menor que 20</h3>
+    <h3>2-a soma esta entre 20 e 80</h3>
+    <h3>3-a soma é maior que 80</h3>
+
+ <script>
+    var numero=20, numero2=0;
+    var soma = numero + numero2;
+   
+    //estrutura de comparação
+       if(soma <=20){
+        document.write("RESPOSTA: A soma é menor, ou igual a 20<br>");
+
+       }else if(soma >20 && soma<80){
+        document.write("RESPOSTA: A soma esta entre 20 e 80<br>");
+       
+       }else if(soma =>80){ 
+        document.write("RESPOSTA: A soma é maior que 80<br>");
+       }
+
+
+    //estrutura de repetição
+    for(i=0;i<10;i=i+3){
+     
+        for(let j=0; j<10; j++){
+          document.write(i,"x",j,"=",i*j, "<br>");
+        }
+    }
+
+  
+    document.write(soma); 
+ 
+ </script>
+
+</body>
+</html>
+
